@@ -21,7 +21,9 @@
  * under the License.
  */
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.apache.struts</groupId>
@@ -36,21 +38,21 @@
     <description>Struts 2 Rest Showcase Example</description>
 
     <distributionManagement>
-       <snapshotRepository>
-    <id>nexus</id>
-    <url>http://18.188.100.16:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
-     <repository>
-    <id>nexus</id>
-    <url>http://18.188.100.16:8081/repository/maven-releases/</url>
-    </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>http://18.188.100.16:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus</id>
+            <url>http://18.188.100.16:8081/repository/maven-releases/</url>
+        </repository>
     </distributionManagement>
 
     <dependencies>
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-rest-plugin</artifactId>
-	</dependency>
+        </dependency>
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-convention-plugin</artifactId>
@@ -142,6 +144,6 @@
         </plugins>
     </build>
     <properties>
-    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 </project>
